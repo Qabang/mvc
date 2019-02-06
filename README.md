@@ -8,7 +8,7 @@ Tillfälles uppdatering:
    
    Tillfälle 2 (2019-01-16): Har börjat separera php från övrig kod och använder mig av include för att få med html, javascript för          respektive sida.
    
-   Tillfälle 3 (2019-01-23): blivit färdig med all separation. kommit till insikt att projektet är något stort att jobba med kontra den      tid som ges så kommer att banta ned webbshoppen till en mycket lättare version för att hinna slutföra projektet. Har fått lägga ganska    mycket tid på att förstå exakt hur en korrekt mvc lösning ser ut och fungerar i praktiken.
+   Tillfälle 3 (2019-01-23): blivit färdig med all separation. kommit till insikt att projektet är något stort att jobba med kontra den      tid som ges så kommer att banta ned webbshoppen till en mycket lättare version för att hinna slutföra projektet. Har fått lägga ganska    mycket tid på googla för att förstå exakt hur en korrekt mvc lösning ser ut och fungerar i praktiken.
    
    Tillfälle 4 (2019-01-30):
    Har gjort en simpel sida för att få förståelse för funktion samt skapat en fungerande databas class som kopplar upp mot databasen.
