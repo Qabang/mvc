@@ -12,3 +12,6 @@ Tillfälles uppdatering:
    
    Tillfälle 4 (2019-01-30):
    Har gjort en simpel sida för att få förståelse för funktion samt skapat en fungerande databas class som kopplar upp mot databasen.
+   
+   Tillfälle 5 (2019-02-06):
+   Har löst funktionen för både login och registrerings sidan så att de fungerar enl min mvc modell
