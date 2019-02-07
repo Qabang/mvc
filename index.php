@@ -1,4 +1,5 @@
 <?php
+include "templates/head.tpl";
 
 $url = isset($_SERVER['PATH_INFO']) ? explode('/', ltrim($_SERVER['PATH_INFO'],'/')) : '/';
 
@@ -57,14 +58,16 @@ if ($url == '/')
         $controllerObj  = new $controllerName( new $modelName );
         $viewObj        = new $viewName( $controllerObj, new $modelName );
 
-
         // If there is a method - Second parameter
         if ($requestedAction != '')
         {
             // then we call the method via the view
             // dynamic call of the view
             print $viewObj->$requestedAction($requestedParams);
-
+ 
+        } 
+        else {
+           print $viewObj->render();
         }
 
     }else{

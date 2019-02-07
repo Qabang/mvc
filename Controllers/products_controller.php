@@ -5,7 +5,7 @@
     */
     // $database = new Dbconnect;
    
-    class LoginController
+    class ProductsController
     {
         private $model;
         private $db;
@@ -16,9 +16,13 @@
             
         }
 
-    
-        public function loginUsers(){
-            return $this->model->loginUser();
+        public function displayProducts()
+        {
+            return $this->model->printProducts();
+        }
+
+        public function getUsers(){
+            return $this->model->printUsers();
             
         }
 

@@ -1,9 +1,9 @@
 <?php
 
     /**
-    * The home page view
+    * The product page view
     */
-    class IndexView
+    class ProductsView
     {
 
         private $model;
@@ -17,17 +17,18 @@
 
             $this->model = $model;
 
-            print "Home - ";
+            print "Products - ";
+        
         }
         public function render(){
-            require( "templates/homeInl.tpl");
-            include("Views/products_view.php") ;
+            return $this->controller->displayProducts();
+            // require( "templates/homeInl.tpl"); 
         }
 
         public function index(){
-          require("templates/homeNotInl.tpl");
-            // echo"kommer detta med?</br>";
-            // return $this->controller->sayWelcome();
+        //   require("templates/homeNotInl.tpl");
+            echo"kommer detta med?</br>";
+            return $this->controller->sayWelcome();
         }
 
         public function action()

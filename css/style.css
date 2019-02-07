@@ -1,0 +1,149 @@
+body{
+   margin:20px;
+}
+#loginForm{
+    display: block;
+    margin:10px;
+    padding:10px;
+    /* background-color: rgb(192, 192, 192); */
+    width:430px;
+    height: 250px;
+
+ }
+/* form{
+    display: inline-block;
+    background-color:rgb(196, 236, 255);
+    width:95%;
+    margin:0px;
+   border: solid 10px rgb(196, 236, 255);
+   border-radius: 10px;
+} */
+
+.frontPage > a {
+     width:100vw;
+   margin:10px 150px 10px 10px;
+    
+}
+#registerForm{
+    display: block;
+    margin:10px;
+    padding:10px;
+    /* background-color: rgb(192, 192, 192); */
+    width:430px;
+    height: 250px;
+    
+}
+input{
+    margin:5px;
+    width:100%;
+    padding:5px;
+    border:  solid 0px; 
+    box-shadow: 2px 2px 10px rgb(180, 180, 180);
+}
+
+#subBtn{
+    margin:30px 3px 10px 3px;
+    padding:15px;
+    
+    border-radius: 10px;
+    background-color:blue;
+    color:white;
+    width:100%;
+    
+
+}
+#subBtn:hover{
+    background-color: darkblue;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+}
+.btn{
+    width:100%;
+    margin:5px;
+    padding: 5px;
+    margin-top:15px;
+    height:45px;
+    
+}
+
+#homeDiv{
+    width:100vw;
+    height:100vh;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    color: black;
+    /* background-color: rgb(196, 236, 255); */
+   
+    padding:10px;
+
+}
+h6{
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    color: black;
+    padding:10px;
+ 
+}
+p{
+    padding:10px;
+}
+
+a:hover{
+    color:rgb(96, 102, 134);
+    text-decoration: underline;
+}
+
+
+/* .tblProducts{
+    display: inline-block;
+    width:100%;
+    border: 1px solid #eee;
+    padding:10px;
+    background-color: rgb(196, 236, 255);
+} */
+
+.cols{
+    /* width: 50%; */
+    text-align: center;
+
+}
+.cols1{
+    padding:5px;
+    font-weight: 900;
+    border-bottom: solid 2px rgb(136, 135, 135);
+    text-align: center;
+
+}
+.rows{
+    display: inline-block;
+    /* float: left; */
+    width: 30%;
+    height:200px;
+    margin:10px;
+    overflow-x: auto;
+    padding:5px;
+    
+}
+.rows:hover{
+    /* background-color: rgb(245, 250, 252); */
+    box-shadow: 2px 2px 10px gray;
+}
+
+#bestall{
+    text-align: left;
+    width: 300px;
+    background-color: violet;
+}
+table, th, td {
+
+    border-collapse: collapse;
+}
+/* .divTillbaka{
+    display:flex!important;
+    background-color: blueviolet;
+} */

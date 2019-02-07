@@ -10,6 +10,8 @@
 
         private $controller;
 
+        private $logSuccess = 0;
+
 
         function __construct($controller, $model)
         {
@@ -18,24 +20,32 @@
             $this->model = $model;
 
             print "Login - ";
-            //ifsats med inloggad eller logga in?
-            // loginUser();
-           
-              require_once( "templates/login.tpl");  
+                    
             
             
         }
-        public function index()
-        {
-            return $this->controller->sayWelcome();
-        }
-
-        public function users(){
-            return $this->controller->getUsers();
+        public function render(){
+            require_once( "templates/login.tpl"); 
             
         }
+     
         public function login(){
-            return $this->controller->loginUsers();
-            
+                //kör loginUser och sparar ned return resultatet i variabeln result
+                $result=$this->controller->loginUsers();
+                // echo $result;
+           
+                if($result == 'login'){
+                    //loggar in och skickar användaren till /index sidan
+                    header("LOCATION: /mvc-test/index");
+                }else{
+                    //om inloggningsuppgifterna inte finns i databasen, stoppar inloggningen
+                   
+                }
+
         }
+        public function Firstlogin(){
+            echo "Du blev registrerad! :) <br><br><br>";
+            $this->render();
+        }
+        
     }
