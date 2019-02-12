@@ -1,9 +1,9 @@
 <?php
 
     /**
-    * The home page controller
+    * The login page controller
     */
-    // $database = new Dbconnect;
+   
    
     class LoginController
     {

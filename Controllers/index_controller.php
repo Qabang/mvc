@@ -1,9 +1,9 @@
 <?php
 
     /**
-    * The home page controller
+    * The index page controller
     */
-    // $database = new Dbconnect;
+ 
    
     class IndexController
     {

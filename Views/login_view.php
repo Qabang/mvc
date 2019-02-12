@@ -1,7 +1,7 @@
 <?php
 
     /**
-    * The home page view
+    * The login page view
     */
     class LoginView
     {
@@ -36,7 +36,7 @@
            
                 if($result == 'login'){
                     //loggar in och skickar användaren till /index sidan
-                    header("LOCATION: /mvc-test/index");
+                    header("LOCATION: /mvc-test/products");
                 }else{
                     //om inloggningsuppgifterna inte finns i databasen, stoppar inloggningen
                    

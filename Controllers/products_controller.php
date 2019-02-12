@@ -1,9 +1,9 @@
 <?php
 
     /**
-    * The home page controller
+    * The products page controller
     */
-    // $database = new Dbconnect;
+  
    
     class ProductsController
     {

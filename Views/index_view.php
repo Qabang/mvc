@@ -1,7 +1,7 @@
 <?php
 
     /**
-    * The home page view
+    * The index page view
     */
     class IndexView
     {

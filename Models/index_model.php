@@ -9,7 +9,6 @@
 
         private $message = 'Welcome to Home page.';
         private $result;
-        private $user = "Detta är min användare!";
         private $db;
         
 
@@ -28,7 +27,7 @@
             $data = mysqli_fetch_array($result);
             
             echo "<h1>Välkommen tillbaka " .ucfirst($data['userFirstName']). ' ' .ucfirst($data['userLastName']).'</h1>';
-           return $this->user;
+           return ;
             
              
             

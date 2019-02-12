@@ -1,7 +1,7 @@
 <?php
 
     /**
-    * The home page view
+    * The register page view
     */
     class registerView
     {
@@ -18,23 +18,16 @@
             $this->model = $model;
 
             print "Register page - ";
-            //ifsats med inloggad eller logga in?
-            // loginUser();
 
         }
        
         public function render(){
             require_once( "templates/register.tpl"); 
         }
-
-        // public function login(){
-        //     return $this->controller->loginUsers();
-            
+ 
         // }
         public function register(){
             $reg = $this->model->registerUserValidation();
-            // $this->render(); 
-            // header("LOCATION: /mvc-test/login");
             if($reg == 'regOkay'){
                 //loggar in och skickar användaren till /index sidan
                 header("LOCATION: /mvc-test/login/firstLogin");
