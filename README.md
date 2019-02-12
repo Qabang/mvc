@@ -5,7 +5,9 @@ Webbshoppen är uppbyggd av främst PHP och HTML men även lite javascript
 
 Istallation:
 1. klona ned the repository och placera den i exempelvis htdocs om du kör Xampp
+1.b. Döp om mappen till mvc-test
 2. Skapa en databas med namnet webbshop (i exempelvis PhpMyAdmin) och imortera sql filen webbshop i den.
+2.b du kan behöva ändra i databas.php beroende på dina inställningar. men gissar på att du har koll på detta
 
 Användning:
 
